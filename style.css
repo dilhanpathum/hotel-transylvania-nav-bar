@@ -1,0 +1,55 @@
+@font-face{
+	font-family: "My Custom Font";
+    src: url(font/hosteltransilvania.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.color-bg{
+	background-color: black;
+}
+.logo{
+	margin-left: 30px;
+}
+.nav-item-color{
+	color: white;
+}
+
+.navbar-font{
+	font-family: "My Custom Font";
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+.active-color{
+	color: red;
+}
+.toggle-btn{
+	margin-right: 30px;
+}
+.navbar-nav  li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.navbar-nav  li button{
+	font-size: 24px;
+	height: 50px;
+	text-align: center;
+	line-height: 10px;
+}
+.navbar-nav  li button a{
+	color: blue;
+}
+
+.background{
+
+/*	background-color: green;*/
+	background: url(images/background.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+
+}
